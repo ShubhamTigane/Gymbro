@@ -86,6 +86,8 @@ const updateWorkout= async (req,resp)=>{
     resp.status(200).json(workout)
 }
 
+
+
 module.exports={
     createWorkout,
     getWorkouts,
